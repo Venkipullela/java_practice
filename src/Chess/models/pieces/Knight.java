@@ -1,0 +1,15 @@
+package Chess.models.pieces;
+
+import Chess.models.*;
+
+public class Knight extends Piece {
+    @Override
+    public boolean isMovable(Game game, Position endPosition) {
+        return false;
+    }
+
+    @Override
+    public Move move(Game game, Position endPosition) {
+        return null;
+    }
+}
